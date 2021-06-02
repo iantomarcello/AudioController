@@ -9,8 +9,8 @@ type AudioElementsArray = Array<AudioElement>;
 
 export default class AudioController {
   audios : Array <AudioElement>;
-  paused : Boolean;
-  muted : Boolean;
+  paused : boolean;
+  muted : boolean;
 
   constructor(audios : AudioElementsArray = []) {
     this.audios = [...audios];
